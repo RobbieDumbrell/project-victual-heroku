@@ -22,7 +22,7 @@ MongoClient.connect(mongoURI)
   })
   .catch(console.error);
 
-app.listen(process.env.PORT || 5000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log(`App running on port ${this.address().port}`);
 });
 
