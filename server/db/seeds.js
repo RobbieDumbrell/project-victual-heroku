@@ -1,4 +1,4 @@
-use food_database;
+use victual;
 db.dropDatabase();
 db.user_food_items.insertMany(
     [{
