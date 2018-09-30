@@ -8,7 +8,7 @@
     "server:dev": "nodemon server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -w",
-    "heroku-postbuild": "webpack -p --config ./webpack.prod.config.js --progress"
+    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
   },
   "author": "",
   "license": "ISC",
