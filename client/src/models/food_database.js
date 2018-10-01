@@ -6,7 +6,7 @@ const port = process.env.PORT;
 
 const FoodDatabase = function(dateSelector){
     // this.databaseRequest = new DatabaseRequest(`http://localhost:3000/api/user_food_items`);
-    this.databaseRequest = new DatabaseRequest(`https://robbie-victual-nutrition.herokuapp.com`);
+    this.databaseRequest = new DatabaseRequest(`https://robbie-victual-nutrition.herokuapp.com:80/`);
     this.dateSelectorValue = dateSelector.value;
 }
 

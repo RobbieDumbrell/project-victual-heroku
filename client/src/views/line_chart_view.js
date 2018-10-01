@@ -21,7 +21,7 @@ LineChartView.prototype.bindEvents = function () {
 LineChartView.prototype.createGraph = function (nutrientToDisplay) {
     this.nutrientToDisplay = nutrientToDisplay;
     // this.databaseRequest = new DatabaseRequest(`http://localhost:3000/api/user_food_items`);
-    this.databaseRequest = new DatabaseRequest(`https://robbie-victual-nutrition.herokuapp.com`);
+    this.databaseRequest = new DatabaseRequest(`https://robbie-victual-nutrition.herokuapp.com:80/`);
     this.getDatesData(7);
     this.RDAData = [];
     this.populateGraph(this.datesData.length);
