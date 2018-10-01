@@ -5,8 +5,8 @@ dotenv.load();
 const port = process.env.PORT;
 
 const FoodDatabase = function(dateSelector){
-    // this.databaseRequest = new DatabaseRequest(`http://localhost:${port}/api/user_food_items`);
-    this.databaseRequest = new DatabaseRequest(`http://localhost:3000/api/user_food_items`);
+    this.databaseRequest = new DatabaseRequest(`http://localhost:${port}/api/user_food_items`);
+    // this.databaseRequest = new DatabaseRequest(`http://localhost:3000/api/user_food_items`);
     this.dateSelectorValue = dateSelector.value;
 }
 
